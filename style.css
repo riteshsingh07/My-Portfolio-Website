@@ -572,7 +572,7 @@ section{
   
   .contact input {
     border: none;
-    color: black;
+    background-color: var(--bg-color);
     margin-bottom: 15px;
   }
   
@@ -593,3 +593,21 @@ section{
     outline: none;
   }
   
+  .contact_form form button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+    border: var(--main-color);
+    outline: invert;
+    border-radius: 10px;
+    background:var(--main-color);
+    color: #fff;
+}
+
+.contact_form form button:hover {
+    color: black;
+}
