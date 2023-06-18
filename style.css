@@ -207,12 +207,12 @@ section{
     align-items: center;
     flex-direction: column;
     gap: 2rem;
-    background: var(--second-bg-color);
+    background: var(--bg-color);
     padding-bottom: 6rem;
-    background-image: url('images/about_me.jpg');
+    /* background-image: url('images/about_me.jpg');
     background-size: 110rem;
     background-position-x: 128rem;
-    background-position-y: 137rem;
+    background-position-y: 137rem; */
     
 }
 
@@ -297,12 +297,12 @@ section{
        /* Skill Page CSS */
 
 
-.skill{
+/* .skill{
     background-image: url('images/use.this.image2.jpg');
     background-size: 100rem;
     background-position-x: 125rem;
     background-position-y: 137rem;
-}
+} */
 
 .skill-content{
     display: grid;
@@ -612,4 +612,68 @@ section{
 
 .contact_form form button:hover {
     color: black;
+}
+
+
+
+                    /* RESPONSIVE  */
+
+
+@media (max-width: 1300px){
+    /* html{
+        font-size: 60%;
+    } */
+
+    .education h2{
+        /* font-size: 5rem; */
+        margin-top: -2%;
+    }
+
+    .education-box{
+          margin-top: -7%;
+    }
+    
+    #picture{
+        margin-top: -9%;
+        width: 90%;
+    }
+
+    .skill h2{
+        margin-top: -4%;
+    }
+
+    .skill-content{
+        margin-top: -8%;
+    }
+
+    .progress{
+        margin-top: -5%;
+    }
+
+    .project h2{
+        margin-top: -4%;
+    }
+
+    .my-project{
+        margin-top: -7%;
+        margin-right: -4%;
+        margin-left: -4%;
+        padding-right: 12%;
+    }
+
+
+    .project-content{
+       margin-right: -20%;
+    }
+
+    .first-proj-file h3{
+             font-size: 3rem;
+    }
+
+    .first-time-spent{
+        font-size: 1.5rem;
+    }
+
+    
+
 }
