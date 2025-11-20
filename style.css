@@ -103,7 +103,7 @@ section{
 
 .home-content .text-animate{
      position: relative;
-     width: 32.8rem;
+     width: 45.8rem;
 }
 
 .home-content .text-animate h3{
@@ -218,7 +218,7 @@ section{
 
 .heading{
     font-size: 6rem;
-    margin-bottom: 12rem;
+    margin-bottom: 8rem;
     text-align: center;
     color: rgb(209, 206, 206);
     margin-top: -2%;
@@ -247,8 +247,9 @@ section{
 
 .education h2{
     color: rgb(209, 206, 206);
-    font-size: 6rem;
+    font-size: 8rem;
     margin-top: 2%;
+    
 }
 
 .education-box{
@@ -280,7 +281,7 @@ section{
     width: 450px;
     display: -webkit-box;
     margin-left: 65%;
-    margin-top: -25%;
+    margin-top: -20%;
     
 }
 
@@ -307,10 +308,10 @@ section{
 .skill-content{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
     row-gap: 13%;
     column-gap: 10%;
-    margin-top: -8%;
+    margin-top: -6%;
     position: relative;
     /* border: .2rem solid var(--main-color); */
     padding: .5rem 1.5rem;
@@ -372,10 +373,18 @@ section{
 }
 
 .progress:nth-child(5) .bar span{
-    width: 60%;
+    width: 80%;
 }
 
 .progress:nth-child(6) .bar span{
+    width: 80%;
+}
+
+.progress:nth-child(7) .bar span{
+    width: 100%;
+}
+
+.progress:nth-child(8) .bar span{
     width: 80%;
 }
 
@@ -391,7 +400,7 @@ section{
     align-items: start;
     justify-items: start;
     column-gap: 8%;
-    margin-top: -4%;
+    margin-top: 1%;
 }
 
 .project-list{
@@ -513,7 +522,7 @@ section{
 }
 
 .experience-box{
-    margin-top: -7%;
+    margin-top: -4%;
     margin-right: 38%;
     margin-left: -3%;
 }
@@ -521,6 +530,7 @@ section{
 .experience-content{
     font-size: 2rem;
     color: wheat;
+    margin-top:2%;
 }
 
 .company-certificate{
@@ -529,12 +539,12 @@ section{
     margin-left: 63%;
     margin-top: 0%;
 }
-
-#pics{
-    width: 85%;
-    margin-top: -95%;
+.company-link h3{
+    font-size: 2.5rem;
+    color: lightskyblue;
+    margin-left: 60%;
+    margin-top: -5%;
 }
-
 
 
 
@@ -553,7 +563,7 @@ section{
 .contact p {
     
     text-align: center;
-    margin-top: -7%;
+    margin-top: -2%;
     font-size: 2.5rem;
     color: wheat;
   }
